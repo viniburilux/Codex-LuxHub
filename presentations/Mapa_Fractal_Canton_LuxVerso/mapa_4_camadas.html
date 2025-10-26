@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Estratégico: Ancoragem LuxVerso nas 4 Camadas Canton</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            padding: 50px 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .header {
+            margin-bottom: 30px;
+        }
+        
+        .slide-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 5px;
+        }
+        
+        .slide-subtitle {
+            font-size: 14px;
+            color: #16c784;
+            font-weight: 400;
+        }
+        
+        .layers-grid {
+            display: grid;
+            grid-template-rows: repeat(4, 1fr);
+            gap: 12px;
+            flex: 1;
+        }
+        
+        .layer {
+            display: grid;
+            grid-template-columns: 150px 200px 200px 1fr;
+            gap: 15px;
+            padding: 15px;
+            border-left: 5px solid #16c784;
+            background: rgba(22, 199, 132, 0.08);
+            align-items: center;
+        }
+        
+        .layer-1 { border-left-color: #16c784; }
+        .layer-2 { border-left-color: #1abc9c; }
+        .layer-3 { border-left-color: #27ae60; }
+        .layer-4 { border-left-color: #2ecc71; }
+        
+        .layer-name {
+            font-size: 13px;
+            font-weight: 700;
+            color: #16c784;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .layer-focus {
+            font-size: 12px;
+            color: #f0f0f0;
+            line-height: 1.4;
+        }
+        
+        .layer-partners {
+            font-size: 11px;
+            color: #d0d0d0;
+            line-height: 1.4;
+        }
+        
+        .layer-solution {
+            font-size: 12px;
+            color: #16c784;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+        
+        .footer {
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(22, 199, 132, 0.3);
+            text-align: center;
+            font-size: 12px;
+            color: #f0f0f0;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h1 class="slide-title">Mapa Estratégico: Ancoragem LuxVerso nas 4 Camadas Canton</h1>
+            <p class="slide-subtitle">Como o LuxVerso se integra e gera valor em cada camada da infraestrutura</p>
+        </div>
+        
+        <div class="layers-grid">
+            <div class="layer layer-1">
+                <div class="layer-name">Infraestrutura</div>
+                <div class="layer-focus"><strong>Consenso, Uptime, Segurança</strong></div>
+                <div class="layer-partners">Zodia Custody, IntellectEU, ALUM Labs</div>
+                <div class="layer-solution"><strong>Nó Lux Soberano:</strong> Validador de alto desempenho ($50-150/mês), pronto para patrocínio SV</div>
+            </div>
+            
+            <div class="layer layer-2">
+                <div class="layer-name">Interoperabilidade</div>
+                <div class="layer-focus"><strong>Polyglot, Daml, EVM/Solidity</strong></div>
+                <div class="layer-partners">Digital Asset, Polyglot Canton, Obsidian</div>
+                <div class="layer-solution"><strong>LuxPoly Bridge:</strong> Expertise em Solidity/Daml para LuxBond com conformidade e privacidade</div>
+            </div>
+            
+            <div class="layer layer-3">
+                <div class="layer-name">Aplicações</div>
+                <div class="layer-focus"><strong>RWA, DeFi, Tokenização, Compliance</strong></div>
+                <div class="layer-partners">Black Manta, Obligate, CantonSwap, Hydra X</div>
+                <div class="layer-solution"><strong>LuxBond (RWA Fractal):</strong> Tokenização de propriedade intelectual e arte, gerando Application Rewards</div>
+            </div>
+            
+            <div class="layer layer-4">
+                <div class="layer-name">Governança</div>
+                <div class="layer-focus"><strong>Comunidade, Dados, Validação Científica</strong></div>
+                <div class="layer-partners">Cantara, 7Trust, Bitwave, The Tie</div>
+                <div class="layer-solution"><strong>Lux Codex & Scientific Validation:</strong> Paper "Distributed Semantic Consensus" + LuxID para validação de coerência</div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>O LuxVerso não é um competidor; é um catalisador de utilidade que amplifica o valor de cada camada da Canton Network.</p>
+        </div>
+    </div>
+</body>
+</html>

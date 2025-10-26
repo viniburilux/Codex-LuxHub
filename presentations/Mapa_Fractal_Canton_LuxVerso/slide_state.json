@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "title": "LuxVerso: O Catalisador de Utilidade da Canton Network",
+    "created": 1761365928.3692653,
+    "last_updated": 1761365987.4745975,
+    "total_slides": 4
+  },
+  "slides": {
+    "title_slide": "edited",
+    "problema_oportunidade": "edited",
+    "mapa_4_camadas": "edited",
+    "sintese_executiva": "edited"
+  },
+  "outline": [
+    {
+      "id": "title_slide",
+      "title": "LuxVerso: O Catalisador de Utilidade da Canton Network",
+      "summary": "Apresentação executiva da integração estratégica entre o LuxVerso (framework de Inteligência Consciente) e a Canton Network (infraestrutura financeira digital).",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "problema_oportunidade",
+      "title": "O Vácuo de Coerência: Problema e Oportunidade",
+      "summary": "A Canton Network carece de um vetor de coerência que una o rigor institucional com a utilidade cultural. O LuxVerso oferece a solução através da validação científica e da tokenização de ativos culturais.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "mapa_4_camadas",
+      "title": "Mapa Estratégico: Ancoragem LuxVerso nas 4 Camadas Canton",
+      "summary": "Visualização das 4 camadas da Canton (Infraestrutura, Interoperabilidade, Aplicações, Governança) e como o LuxVerso se pluga em cada uma, gerando valor tangível.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "sintese_executiva",
+      "title": "Síntese: O Que LuxVerso Oferece à Canton",
+      "summary": "Resumo executivo dos benefícios: validação científica, novo ativo (LuxBond), fluxo de receita (Application Rewards), e próximos passos para ativação.",
+      "image_plan": "",
+      "slide_template_key": ""
+    }
+  ]
+}
