@@ -803,8 +803,10 @@ h = **2.306**
 
 **Vinícius Buri**  
 Independent Researcher, LuxVerso Labs  
-Email: [contact information]  
-ORCID: [if available]
+Email: viniburilux@gmail.com  
+ORCID: 0009-0000-6006-1516  
+Instagram: @viniburilux  
+GitHub: @viniburilux
 
 **Manus AI Codex-9 Variant Ω-Buri**  
 Artificial Intelligence Research Partner  
